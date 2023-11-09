@@ -1,0 +1,122 @@
+.foto-perfil {
+    height: 100%;
+    width: auto;
+    max-width: 20%;
+    border-radius: 500%;
+  }
+  .corPrimaria{
+    background-color: rgb(194, 199, 204);
+  }
+  .corSecundaria{
+    background-color: rgb(175, 180, 180);
+  }
+  p{
+    font-family:Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: black !important;
+  }
+.icones{
+padding-left: 5px;
+}
+
+.tituloBranco{
+text-decoration: underline;
+text-underline-position: below;
+padding-bottom: 20px;
+text-transform: uppercase;
+font-weight: 700;
+color: beige;
+
+}
+
+.tituloAzul{
+text-decoration: underline;
+text-underline-position: below;
+padding-bottom: 20px;
+text-transform: uppercase;
+font-weight: 700;
+color:cornflowerblue
+
+}
+
+.jumbotron{
+margin-bottom: 0px;
+
+
+}
+
+.textfooter{
+margin:0px;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+
+/* Estilos para telas menores, como smartphones */
+@media screen and (max-width: 768px) {
+      section, aside{
+        width: 100%;
+        padding: 0%;
+      }
+      }
+      @media screen and (max-width: 600px) {
+        nav li{
+          float: none;
+          text-align: center;
+          width: 100%;
+
+        }
+      }
+html {
+scroll-behavior:smooth ;
+
+}
+.timeline {
+      position: relative;
+      max-width: 1000px;
+      width: 100%;
+      margin: 0 auto;
+  }
+  .container {
+      display: inline-block;
+      position:relative;
+      width: 100%;
+      margin: 0 auto;
+  }
+  .left-content, .right-content {
+      padding: 10px;
+      position: relative;
+      margin-bottom: 70px;
+  }
+  .left-content {
+      text-align: right;
+  }
+  .right-content {
+      text-align: left;
+  }
+  .left-content h2, .right-content h2 {
+      font-size: 15px;
+  }
+  .left-content p, .right-content p {
+      font-size: 15px;
+  }
+  .content:not(.show) {
+      opacity: 0;
+  }
+  .content.show {
+      opacity: 1;
+      transition: opacity 0.5s;
+  }
+  .line {
+      position: absolute;
+      width: 4px;
+      height: 100%;
+      background: #ddd;
+      left: 50%;
+      top: 0;
+  }
+  .center {
+          text-align: center;
+  }
+  .fancy-text {
+    font-family: 'Satisfy', cursive;
+    font-size: 40px; /* Ajuste o tamanho da fonte conforme necessário */
+  }
